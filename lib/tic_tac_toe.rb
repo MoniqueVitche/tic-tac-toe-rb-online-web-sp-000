@@ -15,7 +15,7 @@ def display_board(board)
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
-x
+
 
 def position_taken?(board, position)
   !(board[position].nil? || board[position] == " " || board[position] == "")
