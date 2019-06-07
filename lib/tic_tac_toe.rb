@@ -15,15 +15,7 @@ def display_board(board)
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
-
-puts "Welcome to Tic Tac Toe!"
-puts "Please enter 1-9:"
-input = gets.strip
-
-index = input_to_index(input)
-
-move(board, index)
-display_board(board)
+x
 
 def position_taken?(board, position)
   !(board[position].nil? || board[position] == " " || board[position] == "")
